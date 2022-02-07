@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/title-grodno.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
