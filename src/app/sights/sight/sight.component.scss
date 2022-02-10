@@ -1,0 +1,21 @@
+.player-container {
+    width: 87%;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.player-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.player-container iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

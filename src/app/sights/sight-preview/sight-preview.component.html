@@ -1,0 +1,33 @@
+<a (click)="navigate()" class="block overflow-hidden rounded-2xl">
+  <swiper
+    [slidesPerView]="1"
+    [spaceBetween]="35"
+    [loop]="true"
+    [pagination]="{ clickable: true }"
+    class="select-none"
+    id="gallery"
+  >
+    <ng-template
+      swiperSlide
+      *ngFor="let img of thumbList;"
+    >
+      <a>
+        <img
+          class="w-full h-full object-cover"
+          src="{{ img }}"
+          alt="{{ title }} photo"
+        />
+      </a>
+    </ng-template>
+  </swiper>
+
+  <div class="p-4 bg-gray-900">
+    <h5 class="text-sm md:text-base text-white">
+      {{ title }}
+    </h5>
+
+    <p class="mt-1 text-xs md:text-sm text-gray-500">
+      {{ desc }}
+    </p>
+  </div>
+</a>
