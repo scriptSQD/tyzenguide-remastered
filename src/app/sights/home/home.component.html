@@ -14,12 +14,12 @@
 
 <div class="flex flex-row flex-wrap justify-evenly items-center mx-auto my-6 gap-y-5 px-4">
   <app-sight-preview
-    *ngFor="let i of [1, 2, 3, 4, 5, 6, 7]"
+    *ngFor="let sight of previewSights"
     class="max-w-sm"
-    tyzen-title="Karalino"
-    tyzen-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat molestiae odit rem? Nobis, odit eius, error dicta maxime id accusamus assumenda laudantium ipsam aperiam officia inventore, quidem illo sequi."
-    [tyzen-thumbnail-list]="imgList"
-    tyzen-router-link="./karolino"
+    tyzen-title="{{ sight.title }}"
+    tyzen-description="{{ sight.shortDesc }}"
+    [tyzen-thumbnail-list]="sight.imgList"
+    tyzen-router-sight-param="{{ sight.routerLink }}"
   >
   </app-sight-preview>
 </div>

@@ -1,10 +1,10 @@
-<a (click)="navigate()" class="block overflow-hidden rounded-2xl">
+<a [routerLink]="['/sights', routerParam]" class="block overflow-hidden rounded-2xl select-none">
   <swiper
     [slidesPerView]="1"
     [spaceBetween]="35"
     [loop]="true"
     [pagination]="{ clickable: true }"
-    class="select-none"
+    class="select-none bg-gray-900"
     id="gallery"
   >
     <ng-template

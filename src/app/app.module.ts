@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { SwiperModule } from 'swiper/angular';
@@ -9,6 +10,8 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './sights/home/home.component';
 import { SightPreviewComponent } from './sights/sight-preview/sight-preview.component';
 import { SightComponent } from './sights/sight/sight.component';
+import { SightsComponent } from './sights/sights.component';
+import { UrlSafePipe } from './url-safe.pipe';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,16 @@ import { SightComponent } from './sights/sight/sight.component';
     MainComponent,
     HomeComponent,
     SightPreviewComponent,
-    SightComponent
+    SightComponent,
+    SightsComponent,
+    UrlSafePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SwiperModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

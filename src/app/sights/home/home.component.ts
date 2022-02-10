@@ -1,8 +1,4 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-// import { promisify } from 'util';
-import { dimens } from '../sight-preview/dimens.interface';
-
-// const sizeOf = promisify(require('image-size'));
 
 @Component({
   selector: 'app-home',
@@ -13,13 +9,39 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor() {};
 
-  imgList: string[] = [
-    "/assets/sight-images/karalino/karalino-1-min.jpg",
-    "/assets/sight-images/karalino/karalino-2-min.jpg",
-    "/assets/sight-images/karalino/karalino-3-min.jpg",
-    "/assets/sight-images/karalino/karalino-4-min.jpg",
-    "/assets/sight-images/karalino/karalino-5-min.jpg"
-  ];
+  previewSights = [
+    {
+      title: "Karalino",
+      shortDesc: "",
+      imgList: [
+        "/assets/sights/images/karalino/thumb/thumb-1.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-2.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-3.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-4.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-5.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-6.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-7.jpg",
+        "/assets/sights/images/karalino/thumb/thumb-8.jpg"
+      ],
+      routerLink: "karalino"
+    },
+    {
+      title: "Tyzenhaus' Archive",
+      shortDesc: "",
+      imgList: [
+        "/assets/sights/images/archive/1.jpg",
+        "/assets/sights/images/archive/2.jpg",
+        "/assets/sights/images/archive/3.jpg",
+        "/assets/sights/images/archive/4.jpg",
+        "/assets/sights/images/archive/5.jpg",
+        "/assets/sights/images/archive/6.jpg",
+        "/assets/sights/images/archive/7.jpg",
+        "/assets/sights/images/archive/8.jpg"
+      ],
+      routerLink: "tyzenhaus-archive"
+    },
+
+  ]
 
   ngOnInit(): void {
   }

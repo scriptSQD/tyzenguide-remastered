@@ -1,10 +1,14 @@
-<article class="flex flex-col justify-center items-center m-3">
+<article
+  class="flex flex-col justify-center items-center m-3"
+  *ngIf="sight | async as sight"
+>
   <div class="flex flex-col w-full max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
     <div class="player-container">
       <iframe
         class="pointer-events-auto w-full h-full"
-        src="https://youtube.com/embed/BKh82oTgGvk?autoplay=0&mute=0"
+        [src]="sight.youtube | urlSafe"
         frameborder="0"
+        allowfullscreen
       ></iframe>
     </div>
     <swiper
@@ -15,31 +19,13 @@
       [loop]="true"
       class="select-none my-4 max-w-4xl w-full"
     >
-      <ng-template swiperSlide>
-        <img
-          src="/assets/sight-images/karalino/karalino-4.jpg"
-          alt="Karolino Hexagon"
-          class="object-cover"
-        />
-      </ng-template>
-      <ng-template swiperSlide>
-        <img
-          src="/assets/sight-images/karalino/karalino-2.jpg"
-          alt="Karolino Mansion"
-          class="object-cover"
-        />
-      </ng-template>
-      <ng-template swiperSlide>
-        <img
-          src="/assets/sight-images/karalino/karalino-5.jpg"
-          alt="Karolino Entrance"
-          class="object-cover"
-        />
+      <ng-template swiperSlide *ngFor="let image of sight.images.thumb">
+        <img src="{{ image }}" alt="Karolino photos" class="object-cover" />
       </ng-template>
     </swiper>
     <div class="mx-auto space-y-8 max-w-prose">
       <h1 class="text-3xl font-bold leading-tight text-gray-900 sm:text-5xl">
-        Karolino - public legacy of our generations.
+        {{ sight.title }}
       </h1>
 
       <div class="inline-block pb-8 border-b-2 border-blue-500">
@@ -48,76 +34,26 @@
 
       <div class="prose prose-lg max-w-none">
         <p>
-          <em>
-            Hey, Tyzenguide team here! Our today topic is The Karalino Country
-            Estate of Tyzenhauz. So, let's start right away! </em
-          ><br /><br />The Karalino country estate of Tyzenhauz is a bright, but
-          until recently completely forgotten page of our national history. But
-          even in its former abandoned form, it continued to be the most
-          valuable cultural and historical heritage created by the mind and
-          labor of people over not only decades, but centuries.<br />The remains
-          of estate buildings, small architectural forms, household structures
-          for various purposes, a water system, a park with a set of rare trees
-          and plants were created in the spirit of fashionable architectural
-          styles. They reflected the way of life, traditions, the spiritual
-          world of entire generations and, in general, the culture of past
-          times. The history of the Karalino estate is powerful and varied. In
-          the 15th century the lands belonged to influential Tatar families.
-          Then the estate was owned by Prince M. Glinsky. But a particularly
-          bright page in the history of Karalino was written by the famous Count
-          Anthony Tyzenhauz.<br />It was on his initiative that the creation of
-          a magnificent palace and park complex began. A regular park was
-          established. Residential and commercial buildings were erected. After
-          Tyzenhaus, the estate passed from hand to hand. But too many cooks
-          spoil the broth, you know. So in the beginning of the 20th century,
-          the estate began to fall into decay, and the buildings were gradually
-          turning into ruins.<br />The revival of the famous estate began in
-          2003 by a group of enthusiasts led by the Klimuks who were not
-          indifferent to the national history, purposeful and hardworking
-          people. They've managed to raise a significant part of the buildings
-          from the ruins, to improve the territory.<br />The whole world was
-          restoring the estate temple - the chapel or "Kaplitsa". Today,
-          religious ceremonies are performed here with the participation of a
-          priest , weddings and christenings take place. Karalino country estate
-          of Tyzenhauz today is an agro estate complex where everyone can find a
-          vacation to their liking. Guest houses, banquet halls, a stable, a
-          bathhouse and other entertainments are available to all guests.<br />The
-          heart of Karolino is called “Ancestral nest”. It is a magnificent
-          building in the center of the estate, it used to be a school, a shop,
-          the owner's house and a restaurant. Now it's a large hotel with a
-          restaurant and a lot of rooms.<br />But under the building we can see
-          something mystical and scary. In the basement or catacombs the most
-          famous people of Belarus from the Freemasons clan were meeting. Also
-          there were a lot of barrels of wine. And now it's a big room where you
-          can find a shelter to hide from the heat in summer.<br />Not far from
-          the chapel there is a stable. It used to have a lot of horses but now
-          there are two horses called Lenta and Bagira. Nowadays the stable is
-          divided into two parts. One part is for horses, the other one is made
-          for living and called “Oaks”. The name is given because of two oaks
-          which hold the first floor of the house. And there is a legend that
-          says: if you want to have good luck, you should rub the nose of a face
-          carved on an oak tree.<br />The biggest building of the estate houses
-          the museum and the art gallery. In the museum there are a lot of
-          exhibits. You can see some maps, old pictures, books and mannequins of
-          Tyzenhauz, paintings of Karolino and Hrodna. They were either bought
-          by the owners of the estate or given to the gallery as a gift by
-          artists who make their open-air paintings every year in Karolino.<br />One
-          more fascinating building is marked on the map as a "hexagon". The
-          window of the building depicts Bona Sforza. Now it's a residential
-          house, but in Anthony times it used to be a big icebox. It's
-          unbelievable, but it was used as a big storage for ice and food.<br />Near
-          the estate you can find the river called Lososyanka. It was named in
-          honor of the fish salmon. Salmon is a fish which likes cold water. So,
-          the water in this river is very cold. Also the river goes through the
-          lake which used to be a swamp. The lake is amazing, especially in
-          winter! Karalino country estate is a beautiful place to relax about 20
-          minutes drive from the center of Hrodna. Weddings and other outdoor
-          events are often held here, tourists stop here; but if you just want
-          to admire the beautiful buildings, you can get to the territory of the
-          estate with no hustle and for free.<br />In the end, we hope this was
-          an interesting story and you've learnt smth new. We'll see you in the
-          other videos. So, bye for now!
+          <em>{{ sight.prose.intro }}</em>
         </p>
+        <div class="not-prose">
+          <p *ngFor="let paragraph of sight.prose.paragraphs">
+            {{ paragraph }}
+          </p>
+        </div>
+        <p>{{ sight.prose.conclusion }}</p>
+      </div>
+
+      <div class="text-indigo-900">
+        <h3>Sources:</h3>
+        <ul class="list-disc">
+          <li *ngFor="let link of sight.sources.links">
+            <a href="{{ link }}" target="_blank" rel="noopener">{{ link }}</a>
+          </li>
+          <li *ngFor="let other of sight.sources.others">
+            {{ other }}
+          </li>
+        </ul>
       </div>
     </div>
   </div>

@@ -1,0 +1,49 @@
+{
+    "name": "Tyzenhaus' Archive",
+    "youtube": "https://youtube.com/embed/lqorU8w0OoA?autoplay=0&mute=0",
+    "images": {
+        "full": [
+            "/assets/sights/images/archive/1.jpg",
+            "/assets/sights/images/archive/2.jpg",
+            "/assets/sights/images/archive/3.jpg",
+            "/assets/sights/images/archive/4.jpg",
+            "/assets/sights/images/archive/5.jpg",
+            "/assets/sights/images/archive/6.jpg",
+            "/assets/sights/images/archive/7.jpg",
+            "/assets/sights/images/archive/8.jpg"
+        ],
+        "thumb": [
+            "/assets/sights/images/archive/1.jpg",
+            "/assets/sights/images/archive/2.jpg",
+            "/assets/sights/images/archive/3.jpg",
+            "/assets/sights/images/archive/4.jpg",
+            "/assets/sights/images/archive/5.jpg",
+            "/assets/sights/images/archive/6.jpg",
+            "/assets/sights/images/archive/7.jpg",
+            "/assets/sights/images/archive/8.jpg"
+        ]
+    },
+    "title": "Historical facts - the Tyzenhaus' Archive.",
+    "prose": {
+        "intro": "Hi there, it's the Tyzenguide Team! Today we’re gonna talk about Tyzenhauz’s Archive. Let’s get started!",
+        "paragraphs": [
+            "If you take a walk along Lenin Square, you can see a building that is situated opposite the puppet theatre. You have stumbled upon the \"Tyzenhauz’s Archive\". This building immerses you in the history of Grodno from the first second and I want to offer you to learn more about it.",
+            "An archive was created with the formation of the Grodno province (1801) and the establishment of the provincial government (1802). Throughout the XIX century, it was situated in many buildings of the city, and since 1900 it has been ideally located in the so-called \"post office\", built in the second half of the XVIII century and comforted on the former Palace Square, 4 (nowadays - Tyzenhauz’s Square, 2).",
+            "The building on Tyzenhauz’s Square, 2 belonged to the Gorodnitsa district, which was built by Anthony Tyzenhauz in the second half of the XVIII century. It was a guest wing. In the 1880s, the National Historical Archive was located in the building. There haven’t been any repairs over the past 130 years. Only the facade of the architectural monument was renovated.",
+            "There were offices of employees who were concerned with the revenue collection. In the middle of the XIX century, there was a post office; then, in the 80s, part of the provincial government archive was located in the annexe of the \"former post office\". Only in 1900, this building was completely given over to the archive of the Grodno provincial Government.",
+            "Let me tell you about the external look of the archive, which gathers the views of not only tourists but also residents of Grodno. The architectural style is a transition from Baroque to Classicism. A two-story rectangular brick structure with a hip roof. The main, western and eastern facades are decorated with wide blades, panels and niches, sides are loosened with flat realities. The lower upper floor is separated by a cornice belt and is richly decorated.",
+            "At the time of the relocation of the National Historical Archive of Grodno in June-August 2014, the interiors of the \"Tyzenhauz’s house\" were ordinary premises, only deep niches from the tiled stoves that once stood here reminded of the XVIII century. During the latest reconstruction, these niches have been preserved.",
+            "People living in Grodno admire the greatness, fascination and versatility of their city. \"We all want the spirit of the golden royal Grodno to appear here. After all, the city is really special. Six kings lived here, it periodically became the centre of Europe.\"",
+            "In the XX century, a huge number of architectural landmarks were destroyed by wars and people in Grodno. If they had \"survived\", the city above Neman could fully correspond to the crowned title. And the implementation of the project \"Shlyakham Tyzengauza\" is a small part to remind descendants of the former greatness of Grodno, to help the city to return the modern cut."
+        ],
+        "conclusion": "When the building on Tyzenhauz Square is reconstructed, it will finally reflect the \"golden age\" of Grodno and attract tourists for a long time."
+    },
+    "sources": {
+        "links": [
+            "https://grodno.in/news/16619/"
+        ],
+        "others": [
+            "Yuri Gardzeeu - \"Antoni Tyzenhaus and his epoch\""
+        ]
+    }
+}

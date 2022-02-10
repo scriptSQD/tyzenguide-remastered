@@ -19,12 +19,8 @@ export class SightPreviewComponent implements OnInit {
 
   @Input('tyzen-router-link') routerLink!: string;
 
-  @Input('tyzen-router-sight') routerParam!: string;
+  @Input('tyzen-router-sight-param') routerParam!: string;
 
-  ngOnInit(): void {}
-
-  navigate() {
-    this.router.navigate(['/sights'], { queryParams: { sight: this.routerParam } });
-  }
+  ngOnInit(): void {};
 
 }
