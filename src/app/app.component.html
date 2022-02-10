@@ -1,8 +1,8 @@
-<header class="sticky top-0 bg-white shadow z-50">
+<a class="inline-flex items-center justify-center w-full bg-white z-20" href="/">
+  <img src="/assets/logo.svg" alt="Tynzeguide Logo" class="w-24 h-24">
+</a>
+<header class="sticky top-0 flex flex-col bg-white shadow z-10">
   <nav class="flex items-center justify-between max-w-5xl px-4 py-3 mx-auto">
-    <a class="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg" href="/">
-      <img src="/assets/logo.svg" alt="Tynzeguide Logo">
-    </a>
   
     <ul class="flex items-center space-x-2 text-base md:text-lg font-sans font-medium text-gray-500">
       <li>
@@ -10,13 +10,13 @@
       </li>
   
       <li>
-        <a class="px-3 py-2 rounded-lg" routerLink="">Sights</a>
+        <a class="px-3 py-2 rounded-lg" routerLink="sights">Sights</a>
       </li>
     </ul>
   </nav>
 </header>
 
-<app-main></app-main>
+<router-outlet></router-outlet>
 
 <footer class="text-center mt-auto">
   <div class="max-w-screen-xl px-4 pb-3 pt-12 mx-auto sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@
       </nav>
 
       <p class="max-w-lg mx-auto text-xs text-gray-500">
-        Tyzenguide is a group of people, passionate about Grodno's historical heritage. We hope we can interest you too!
+        Tyzenguide is a group of people, passionate about Hrodna historical heritage. We hope we can interest you too!
       </p>
 
       <p class="text-xs font-medium">

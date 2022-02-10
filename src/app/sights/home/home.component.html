@@ -1,0 +1,25 @@
+<section class="my-6">
+  <div class="relative text-center">
+    <span
+      class="absolute inset-x-0 h-px -translate-y-1/2 bg-black/10 top-1/2"
+    ></span>
+
+    <h2
+      class="relative inline-block px-4 text-2xl font-bold text-center bg-white"
+    >
+      Sights to observe
+    </h2>
+  </div>
+</section>
+
+<div class="flex flex-row flex-wrap justify-evenly items-center mx-auto my-6 gap-y-5 px-4">
+  <app-sight-preview
+    *ngFor="let sight of previewSights"
+    class="max-w-sm"
+    tyzen-title="{{ sight.title }}"
+    tyzen-description="{{ sight.shortDesc }}"
+    [tyzen-thumbnail-list]="sight.imgList"
+    tyzen-router-sight-param="{{ sight.routerLink }}"
+  >
+  </app-sight-preview>
+</div>
