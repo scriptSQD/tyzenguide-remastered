@@ -19,8 +19,17 @@
       [loop]="true"
       class="select-none my-4 max-w-4xl w-full"
     >
-      <ng-template swiperSlide *ngFor="let image of sight.images.thumb">
-        <img src="{{ image }}" alt="Karolino photos" class="object-cover" />
+      <ng-template
+        swiperSlide
+        *ngFor="let image of sight.images.thumb; let i = index;"
+        id="gallery"
+      >
+        <img
+          src="{{ image }}"
+          alt="{{ sight.name }} photos"
+          class="object-cover"
+          (click)="openPswp(i)"
+        />
       </ng-template>
     </swiper>
     <div class="mx-auto space-y-8 max-w-prose">
@@ -48,8 +57,13 @@
         <h3>Sources:</h3>
         <ul class="list-disc">
           <li *ngFor="let link of sight.sources.links">
-            <a href="{{ link }}" target="_blank" rel="noopener" class="flex flex-row items-center">
-              {{ link}}
+            <a
+              href="{{ link }}"
+              target="_blank"
+              rel="noopener"
+              class="flex flex-row items-center"
+            >
+              {{ link }}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -73,3 +87,5 @@
     </div>
   </div>
 </article>
+
+<app-photo-swipe #photoSwipe></app-photo-swipe>

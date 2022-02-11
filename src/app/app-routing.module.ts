@@ -4,6 +4,7 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './sights/home/home.component';
 import { SightComponent } from './sights/sight/sight.component';
 import { SightsComponent } from './sights/sights.component';
+import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -12,7 +13,8 @@ const routes: Routes = [
       { path: '', component: HomeComponent, pathMatch: 'prefix' },
     ]
   },
-  { path: 'sights/:sight', component: SightComponent }
+  { path: 'sights/:sight', component: SightComponent },
+  { path: 'tyzenhaus', component: TyzenhausComponent }
 ];
 
 @NgModule({

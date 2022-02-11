@@ -12,6 +12,8 @@ import { SightPreviewComponent } from './sights/sight-preview/sight-preview.comp
 import { SightComponent } from './sights/sight/sight.component';
 import { SightsComponent } from './sights/sights.component';
 import { UrlSafePipe } from './url-safe.pipe';
+import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
+import { PhotoSwipeComponent } from './photo-swipe/photo-swipe.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { UrlSafePipe } from './url-safe.pipe';
     SightPreviewComponent,
     SightComponent,
     SightsComponent,
-    UrlSafePipe
+    UrlSafePipe,
+    TyzenhausComponent,
+    PhotoSwipeComponent
   ],
   imports: [
     BrowserModule,
