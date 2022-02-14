@@ -1,0 +1,45 @@
+{
+  "name": "Chetvertinsky Palace",
+  "youtube": "https://youtube.com/embed/c3UkGDlGooY?autoplay=0&mute=0",
+  "images": {
+    "full": [
+      "/assets/sights/images/chetvertinsky-palace/1.jpg",
+      "/assets/sights/images/chetvertinsky-palace/2.jpg",
+      "/assets/sights/images/chetvertinsky-palace/3.jpg",
+      "/assets/sights/images/chetvertinsky-palace/4.jpg",
+      "/assets/sights/images/chetvertinsky-palace/5.jpg",
+      "/assets/sights/images/chetvertinsky-palace/6.jpg",
+      "/assets/sights/images/chetvertinsky-palace/7.jpg",
+      "/assets/sights/images/chetvertinsky-palace/8.jpg"
+    ],
+    "thumb": [
+      "/assets/sights/images/chetvertinsky-palace/1.jpg",
+      "/assets/sights/images/chetvertinsky-palace/2.jpg",
+      "/assets/sights/images/chetvertinsky-palace/3.jpg",
+      "/assets/sights/images/chetvertinsky-palace/4.jpg",
+      "/assets/sights/images/chetvertinsky-palace/5.jpg",
+      "/assets/sights/images/chetvertinsky-palace/6.jpg",
+      "/assets/sights/images/chetvertinsky-palace/7.jpg",
+      "/assets/sights/images/chetvertinsky-palace/8.jpg"
+    ]
+  },
+  "title": "The Medical origin - Chetvertinsky palace.",
+  "prose": {
+    "intro": "Hi, we are from Tyzenguide! Today, let's dive into the realm of Anthony Tyzenhaus' social and cultural achievements in the territory of our city with a story about Chetvertinsky's Palace.",
+    "paragraphs": [
+      "In the second half of the 18th century, Anthony Tyzenhauz decided to establish the first higher educational institution on the territory of modern Belarus. With the support of King Stanislav, he has successfully got through hardships. And in 1776, Grodno Medical Academy opened its doors in a white botanical garden, where Tyzenhauz invited J.E. Giliber, a well-known French biologist back then, to head it.",
+      "The first enrolment caused some difficulties, because of the lack of students for the full staff composition, as the local gentry was not very interested in medical education. The Academy didn't work for a long time, as, unfortunately, the medical profession was not much in demand among the residents of Grodno. Later, the academy was moved to Vilna, where it continued its educational work.",
+      "The building remained empty for 14 years, until 1795 when the King of the Polish-Lithuanian Commonwealth gave the building and a plot of land to Princes Sviatopolk-Chetvertinskis. In this regard, the building is known as the Chetvertinsky Palace.",
+      "But these days the palace has a new owner who plans to revive the Gilliber Greenhouse that was once put a soul in. We sincerely hope that it will help you to learn about the palace from both the entertaining and educational sides. The guided tours are also planned to be organised."
+    ],
+    "conclusion": "As of the end of this story, we advise you to visit this landmark in the future! We're looking forward to seeing you in our other videos, and goodbye!"
+  },
+  "sources": {
+    "links": [
+        "https://planetabelarus.by/sights/zdanie-meditsinskoy-akademii-dvorets-chetvertinskikh-v-grodno",
+        "https://harodnia.com/be/uczora/vkl-recz-paspalitaja/576-elena-kvitnitskaya-stroitelstvo-tyzengauza-v-grodno-chast-4",
+        "https://newgrodno.by/society/dvorec-restavracia"
+    ],
+    "others": []
+  }
+}

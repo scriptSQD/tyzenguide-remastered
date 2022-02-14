@@ -1,52 +1,52 @@
 {
-    "name": "Pharmacy Museum",
-    "youtube": "",
-    "images": {
-        "full": [
-            "/assets/sights/images/pharmacy-museum/full/1.jpg",
-            "/assets/sights/images/pharmacy-museum/full/2.jpg",
-            "/assets/sights/images/pharmacy-museum/full/3.jpg",
-            "/assets/sights/images/pharmacy-museum/full/4.jpg",
-            "/assets/sights/images/pharmacy-museum/full/5.jpg",
-            "/assets/sights/images/pharmacy-museum/full/6.jpg",
-            "/assets/sights/images/pharmacy-museum/full/7.jpg",
-            "/assets/sights/images/pharmacy-museum/full/8.jpg"
-        ],
-        "thumb": [
-            "/assets/sights/images/pharmacy-museum/thumb/1.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/2.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/3.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/4.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/5.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/6.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/7.jpg",
-            "/assets/sights/images/pharmacy-museum/thumb/8.jpg"
-        ]
-    },
-    "title": "Pharmacy Museum - the only One.",
-    "prose": {
-        "intro": "Among interesting historical sites in Hrodna, associated with the name of Anthony Tezenhauz, it is worth noting the legendary pharmacy museum, which is the oldest and only operating pharmacy museum in Belarus.  It is located in the historic centre of the city, next to the  St.  Francis Xavier Cathedral.",
-        "paragraphs": [
-            "The old pharmacy operated from the end of the 17th century to the middle of the 20th century.  It has its own rich history and cultural value.  The greatest contribution to the development of the pharmacy was made by the famous French professor Jean-Emmanuel Gilibert, personally invited by Antony Tezenhauz himself.",
-            "The history of the pharmacy goes back to the end of the 17th and beginning of the 18th centuries. The fact is that starting from the 15th century, the Catholic orders that appeared in the Grand Duchy of Lithuania began to organize their pharmacies, shelters and hospitals. In pharmacy, the Jesuit Order held the lead, so since 1662, pharmacies have existed at almost all the Jesuit collegiums of the Grand Duchy of Lithuania.",
-            "The pharmacy of the Hrodna collegium was formed in the same way.  From 1687, its activities were limited to internal needs.  However, in 1709, a new spacious building with a separate entrance from the Market Square was erected for a pharmacy.  Since that time, all the citizens have used the services of the pharmacy.",
-            "In 1763, a second floor was completed above the pharmacy, which allowed pharmacists to conduct more active scientific activities. Functionally, its building was divided into two parts: the main one, with rooms on the side of the main facade on the first and second floors, and a utility room, with rooms in the rear of the building.  The interior decoration of the pharmacy at that time was truly luxurious: spacious rooms were richly furnished with inlaid furniture.  The interior was complemented by graceful tiled stoves and fireplaces, as well as elaborately decorated walls and marble floors.",
-            "The Hrodna Jesuit pharmacy sold raw materials and medicines based on local herbs with the addition of mineral and organic components.  Fresh raw materials were required in large quantities, so in the northern part of the collegium there was a pharmacy garden.",
-            "In the 70s of the 18th century, the pharmacy was transferred to the Hrodna Medical Academy - the first higher educational institution on the territory of modern Belarus.  At that time, Jean Emmanuel Gilibert, a French physician and botanist, doctor of medicine, professor of anatomy, surgery and natural history, worked within its walls.  Z.E. Zhiliber arrived at the end of 1775 in Hrodna at the invitation of the head Anthony Tizengauz.",
-            "Despite the wars and the change of owners, the pharmacy existed in its old building until 1950.  Later it was replaced by a pharmacy warehouse, furniture salon, Teacher's House.  There were several attempts to return the pharmacy to its original location, but the necessary funds for its reconstruction were not available for a long time.  Finally, in 1996, the pharmacy received its revival.",
-            "The first temporary museum exhibition of the pharmacy was created with the help of the citizens and existed until 2004.",
-            "The showcases of the thematic zone reflect the history of the pharmacy, which tells about the main stages of its activity and are associated with the development of medical sciences. The collection includes more than a thousand exhibits: old medical devices, dishes, medicines, recipes of doctors of Hrodna, rare editions of the medical literature of the past centuries.",
-            "Various stock collections of the pharmacy museum are presented with prescriptions of medicines from different pharmacies of the Hrodna region, advertising products of pharmaceutical companies from the 1920s to the 1930s of 20th century, various medical instruments, old books on medicine and pharmacy. The exposition of the unique museum provides us with the opportunity to get acquainted with documentary materials and photographs, postcards telling about the history of the pharmacy, collections of various pharmaceutical utensils, equipment, and medicines. The oldest and most valuable exhibits date back to the 18th century. The most significant of them are a pharmacy mortar for the preparation of medicines, made in 1716, a porcelain vessel from the middle of the 18th century, and a collection of scales from the same period. Among the many fascinating and interesting exhibits, a stuffed animal of a huge wood grouse and a stuffed small crocodile delivered from Africa stand out.",
-            "The pearl of the museum's collection is six stylized herbariums, personally made by the hands of the famous Belarusian-Polish writer Eliza Ozheshko."
-        ],
-        "conclusion": "So, the pharmacy museum has become one of the most important cultural and historical sites of Hrodna."
-    },
-    "sources": {
-        "links": [
-            "https://www.am.biotest.by/",
-            "https://zetgrodno.com/apteka-muzey,-grodno",
-            "https://posmotrim.by/article/apteka-muzey-v-grodno.html"
-        ],
-        "others": []
-    }
+  "name": "Pharmacy Museum",
+  "youtube": "",
+  "images": {
+    "full": [
+      "/assets/sights/images/pharmacy-museum/full/1.jpg",
+      "/assets/sights/images/pharmacy-museum/full/2.jpg",
+      "/assets/sights/images/pharmacy-museum/full/3.jpg",
+      "/assets/sights/images/pharmacy-museum/full/4.jpg",
+      "/assets/sights/images/pharmacy-museum/full/5.jpg",
+      "/assets/sights/images/pharmacy-museum/full/6.jpg",
+      "/assets/sights/images/pharmacy-museum/full/7.jpg",
+      "/assets/sights/images/pharmacy-museum/full/8.jpg"
+    ],
+    "thumb": [
+      "/assets/sights/images/pharmacy-museum/thumb/1.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/2.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/3.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/4.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/5.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/6.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/7.jpg",
+      "/assets/sights/images/pharmacy-museum/thumb/8.jpg"
+    ]
+  },
+  "title": "Pharmacy Museum - the only One.",
+  "prose": {
+    "intro": "Among interesting historical sites in Hrodna, associated with the name of Anthony Tezenhauz, it is worth noting the legendary pharmacy museum, which is the oldest and only operating pharmacy museum in Belarus.  It is located in the historic centre of the city, next to the  St.  Francis Xavier Cathedral.",
+    "paragraphs": [
+      "The old pharmacy operated from the end of the 17th century to the middle of the 20th century.  It has its own rich history and cultural value.  The greatest contribution to the development of the pharmacy was made by the famous French professor Jean-Emmanuel Gilibert, personally invited by Antony Tezenhauz himself.",
+      "The history of the pharmacy goes back to the end of the 17th and beginning of the 18th centuries. The fact is that starting from the 15th century, the Catholic orders that appeared in the Grand Duchy of Lithuania began to organize their pharmacies, shelters and hospitals. In pharmacy, the Jesuit Order held the lead, so since 1662, pharmacies have existed at almost all the Jesuit collegiums of the Grand Duchy of Lithuania.",
+      "The pharmacy of the Hrodna collegium was formed in the same way.  From 1687, its activities were limited to internal needs.  However, in 1709, a new spacious building with a separate entrance from the Market Square was erected for a pharmacy.  Since that time, all the citizens have used the services of the pharmacy.",
+      "In 1763, a second floor was completed above the pharmacy, which allowed pharmacists to conduct more active scientific activities. Functionally, its building was divided into two parts: the main one, with rooms on the side of the main facade on the first and second floors, and a utility room, with rooms in the rear of the building.  The interior decoration of the pharmacy at that time was truly luxurious: spacious rooms were richly furnished with inlaid furniture.  The interior was complemented by graceful tiled stoves and fireplaces, as well as elaborately decorated walls and marble floors.",
+      "The Hrodna Jesuit pharmacy sold raw materials and medicines based on local herbs with the addition of mineral and organic components.  Fresh raw materials were required in large quantities, so in the northern part of the collegium there was a pharmacy garden.",
+      "In the 70s of the 18th century, the pharmacy was transferred to the Hrodna Medical Academy - the first higher educational institution on the territory of modern Belarus.  At that time, Jean Emmanuel Gilibert, a French physician and botanist, doctor of medicine, professor of anatomy, surgery and natural history, worked within its walls.  Z.E. Zhiliber arrived at the end of 1775 in Hrodna at the invitation of the head Anthony Tizengauz.",
+      "Despite the wars and the change of owners, the pharmacy existed in its old building until 1950.  Later it was replaced by a pharmacy warehouse, furniture salon, Teacher's House.  There were several attempts to return the pharmacy to its original location, but the necessary funds for its reconstruction were not available for a long time.  Finally, in 1996, the pharmacy received its revival.",
+      "The first temporary museum exhibition of the pharmacy was created with the help of the citizens and existed until 2004.",
+      "The showcases of the thematic zone reflect the history of the pharmacy, which tells about the main stages of its activity and are associated with the development of medical sciences. The collection includes more than a thousand exhibits: old medical devices, dishes, medicines, recipes of doctors of Hrodna, rare editions of the medical literature of the past centuries.",
+      "Various stock collections of the pharmacy museum are presented with prescriptions of medicines from different pharmacies of the Hrodna region, advertising products of pharmaceutical companies from the 1920s to the 1930s of 20th century, various medical instruments, old books on medicine and pharmacy. The exposition of the unique museum provides us with the opportunity to get acquainted with documentary materials and photographs, postcards telling about the history of the pharmacy, collections of various pharmaceutical utensils, equipment, and medicines. The oldest and most valuable exhibits date back to the 18th century. The most significant of them are a pharmacy mortar for the preparation of medicines, made in 1716, a porcelain vessel from the middle of the 18th century, and a collection of scales from the same period. Among the many fascinating and interesting exhibits, a stuffed animal of a huge wood grouse and a stuffed small crocodile delivered from Africa stand out.",
+      "The pearl of the museum's collection is six stylized herbariums, personally made by the hands of the famous Belarusian-Polish writer Eliza Ozheshko."
+    ],
+    "conclusion": "So, the pharmacy museum has become one of the most important cultural and historical sites of Hrodna."
+  },
+  "sources": {
+    "links": [
+      "https://www.am.biotest.by/",
+      "https://zetgrodno.com/apteka-muzey,-grodno",
+      "https://posmotrim.by/article/apteka-muzey-v-grodno.html"
+    ],
+    "others": []
+  }
 }

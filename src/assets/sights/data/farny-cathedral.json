@@ -1,46 +1,44 @@
 {
-    "name": "Farny Cathedral",
-    "youtube": "",
-    "images": {
-        "full": [
-            "/assets/sights/images/farny/1.jpg",
-            "/assets/sights/images/farny/2.jpg",
-            "/assets/sights/images/farny/3.jpg",
-            "/assets/sights/images/farny/4.jpg",
-            "/assets/sights/images/farny/5.jpg",
-            "/assets/sights/images/farny/6.jpg",
-            "/assets/sights/images/farny/7.jpg",
-            "/assets/sights/images/farny/8.jpg",
-            "/assets/sights/images/farny/9.jpg"
-        ],
-        "thumb": [
-            "/assets/sights/images/farny/1.jpg",
-            "/assets/sights/images/farny/2.jpg",
-            "/assets/sights/images/farny/3.jpg",
-            "/assets/sights/images/farny/4.jpg",
-            "/assets/sights/images/farny/5.jpg",
-            "/assets/sights/images/farny/6.jpg",
-            "/assets/sights/images/farny/7.jpg",
-            "/assets/sights/images/farny/8.jpg",
-            "/assets/sights/images/farny/9.jpg"
-        ]
-    },
-    "title": "Farny Cathedral - another home of Tyzenhaus.",
-    "prose": {
-        "intro": "Grodno is a wonderful city, where the history of many generations still lives and breathes, surprising a lucky visitor with a wide range of outstanding stories. And one of the most spectacular pieces of architecture in the city, the temple of Saint Francis Xavier, has a lot of reasons to boast. But we are interested in a historical monument, the memorial dedicated to the main hero of our research, Antony Tysenhauz.",
-        "paragraphs": [
-            "In the very centre of the ancient Hrodna, on Soviet Square, which changed many names in previous eras, in the Cathedral of St. Francis Xavier, there is an obelisk of the end of the 19th century, perpetuating the name of Anthony Tyzenhauz (1733–1785), a well-known political and public figure of the Grand Duchy of Lithuania, a philanthropist and a reformer.",
-            "At the base of the obelisk, decorated with a portrait of Anthony Tyzenhauz and crowned with a vase with the symbolic ashes of the count, a mourning woman bows her head. There is a memorial table on the monument, the inscription on which, translated from Polish, reads: “Count Anthony Tysenhauz, governor of Grodno, treasurer of the Grand Duchy of Lithuania, born. 1733 - died. 1785 Maria Alexandrovna Pshezdetskaya from the Tysenhauz family, fulfilling the will of her father and brother, erected this monument.",
-            "As follows from the above inscription, the memorial to Antony was created on the initiative of his relative, the great-nephew Count Konstantin Alexander Tysenhauz, a scientist, a well-known Belarusian ornithologist, the obelisk was made by Tomasz Dikas, a sculptor from Lwow, who created a lot of famous artworks.",
-            "The search for a sculptor, the design and creation of the monument, as well as obtaining permission to install it in the cathedral, took quite a long time. The mission of the deceased father was continued by his son Reynauld. Then the will of Konstantin Tyzenhauz was undertaken by his daughter Maria. She commissioned a monument but had died before it was completed.",
-            "And, finally, her son, Konstantin Alexander Pshezdetsky, completed the work of three generations of his family. In the National Historical Archive of Belarus, a petition of Count Konstantin addressed to the Governor of Grodno has been preserved. Konstantin Pshezdetsky described in this document the glorious deeds of Anthony Tyzenhauz, which he sought to perpetuate in a memorial, and asked to be allowed to erect a monument in Grodno's famous cathedral. Governor Dmitry Batyushkov gave permission."
-        ],
-        "conclusion": "Thanks to this fact we are now able to observe the masterpiece of great historical significance."
-    },
-    "sources": {
-        "links": [
-            "https://vgr.by/2019/08/23/odin-iz-stareyshih"
-        ],
-        "others": []
-    }
+  "name": "Farny Cathedral",
+  "youtube": "",
+  "images": {
+    "full": [
+      "/assets/sights/images/farny/1.jpg",
+      "/assets/sights/images/farny/2.jpg",
+      "/assets/sights/images/farny/3.jpg",
+      "/assets/sights/images/farny/4.jpg",
+      "/assets/sights/images/farny/5.jpg",
+      "/assets/sights/images/farny/6.jpg",
+      "/assets/sights/images/farny/7.jpg",
+      "/assets/sights/images/farny/8.jpg",
+      "/assets/sights/images/farny/9.jpg"
+    ],
+    "thumb": [
+      "/assets/sights/images/farny/1.jpg",
+      "/assets/sights/images/farny/2.jpg",
+      "/assets/sights/images/farny/3.jpg",
+      "/assets/sights/images/farny/4.jpg",
+      "/assets/sights/images/farny/5.jpg",
+      "/assets/sights/images/farny/6.jpg",
+      "/assets/sights/images/farny/7.jpg",
+      "/assets/sights/images/farny/8.jpg",
+      "/assets/sights/images/farny/9.jpg"
+    ]
+  },
+  "title": "Farny Cathedral - another home of Tyzenhaus.",
+  "prose": {
+    "intro": "Grodno is a wonderful city, where the history of many generations still lives and breathes, surprising a lucky visitor with a wide range of outstanding stories. And one of the most spectacular pieces of architecture in the city, the temple of Saint Francis Xavier, has a lot of reasons to boast. But we are interested in a historical monument, the memorial dedicated to the main hero of our research, Antony Tysenhauz.",
+    "paragraphs": [
+      "In the very centre of the ancient Hrodna, on Soviet Square, which changed many names in previous eras, in the Cathedral of St. Francis Xavier, there is an obelisk of the end of the 19th century, perpetuating the name of Anthony Tyzenhauz (1733–1785), a well-known political and public figure of the Grand Duchy of Lithuania, a philanthropist and a reformer.",
+      "At the base of the obelisk, decorated with a portrait of Anthony Tyzenhauz and crowned with a vase with the symbolic ashes of the count, a mourning woman bows her head. There is a memorial table on the monument, the inscription on which, translated from Polish, reads: “Count Anthony Tysenhauz, governor of Grodno, treasurer of the Grand Duchy of Lithuania, born. 1733 - died. 1785 Maria Alexandrovna Pshezdetskaya from the Tysenhauz family, fulfilling the will of her father and brother, erected this monument.",
+      "As follows from the above inscription, the memorial to Antony was created on the initiative of his relative, the great-nephew Count Konstantin Alexander Tysenhauz, a scientist, a well-known Belarusian ornithologist, the obelisk was made by Tomasz Dikas, a sculptor from Lwow, who created a lot of famous artworks.",
+      "The search for a sculptor, the design and creation of the monument, as well as obtaining permission to install it in the cathedral, took quite a long time. The mission of the deceased father was continued by his son Reynauld. Then the will of Konstantin Tyzenhauz was undertaken by his daughter Maria. She commissioned a monument but had died before it was completed.",
+      "And, finally, her son, Konstantin Alexander Pshezdetsky, completed the work of three generations of his family. In the National Historical Archive of Belarus, a petition of Count Konstantin addressed to the Governor of Grodno has been preserved. Konstantin Pshezdetsky described in this document the glorious deeds of Anthony Tyzenhauz, which he sought to perpetuate in a memorial, and asked to be allowed to erect a monument in Grodno's famous cathedral. Governor Dmitry Batyushkov gave permission."
+    ],
+    "conclusion": "Thanks to this fact we are now able to observe the masterpiece of great historical significance."
+  },
+  "sources": {
+    "links": ["https://vgr.by/2019/08/23/odin-iz-stareyshih"],
+    "others": []
+  }
 }
