@@ -3,7 +3,7 @@
   *ngIf="sight | async as sight"
 >
   <div class="flex flex-col w-full max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
-    <div class="player-container">
+    <div class="player-container" *ngIf="sight.youtube">
       <iframe
         class="pointer-events-auto w-full h-full"
         [src]="sight.youtube | urlSafe"
@@ -21,14 +21,13 @@
     >
       <ng-template
         swiperSlide
-        *ngFor="let image of sight.images.thumb; let i = index;"
+        *ngFor="let image of sight.images.thumb;"
         id="gallery"
       >
         <img
           src="{{ image }}"
           alt="{{ sight.name }} photos"
           class="object-cover"
-          (click)="openPswp(i)"
         />
       </ng-template>
     </swiper>
@@ -87,5 +86,3 @@
     </div>
   </div>
 </article>
-
-<app-photo-swipe #photoSwipe></app-photo-swipe>

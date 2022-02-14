@@ -13,7 +13,6 @@ import { SightComponent } from './sights/sight/sight.component';
 import { SightsComponent } from './sights/sights.component';
 import { UrlSafePipe } from './url-safe.pipe';
 import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
-import { PhotoSwipeComponent } from './photo-swipe/photo-swipe.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { PhotoSwipeComponent } from './photo-swipe/photo-swipe.component';
     SightComponent,
     SightsComponent,
     UrlSafePipe,
-    TyzenhausComponent,
-    PhotoSwipeComponent
+    TyzenhausComponent
   ],
   imports: [
     BrowserModule,

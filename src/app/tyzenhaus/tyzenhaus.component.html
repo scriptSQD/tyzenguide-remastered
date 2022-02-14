@@ -8,8 +8,8 @@
       [loop]="true"
       class="select-none my-4 max-w-4xl w-full"
     >
-      <ng-template swiperSlide>
-        <img src="" alt="Tyzenhaus photos" class="object-cover" />
+      <ng-template swiperSlide *ngFor="let img of photos">
+        <img src="{{ img }}" alt="Tyzenhaus photos" class="object-cover" />
       </ng-template>
     </swiper>
     <div class="mx-auto space-y-8 max-w-prose">
