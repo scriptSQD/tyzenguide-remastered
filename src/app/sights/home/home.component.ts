@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         '/assets/sights/images/karalino/thumb/thumb-5.jpg',
         '/assets/sights/images/karalino/thumb/thumb-6.jpg',
         '/assets/sights/images/karalino/thumb/thumb-7.jpg',
-        '/assets/sights/images/karalino/thumb/thumb-8.jpg',
+        '/assets/sights/images/karalino/thumb/thumb-8.jpg'
       ],
       routerLink: 'karalino',
     },
@@ -37,9 +37,26 @@ export class HomeComponent implements OnInit, AfterViewInit {
         '/assets/sights/images/archive/5.jpg',
         '/assets/sights/images/archive/6.jpg',
         '/assets/sights/images/archive/7.jpg',
-        '/assets/sights/images/archive/8.jpg',
+        '/assets/sights/images/archive/8.jpg'
       ],
       routerLink: 'tyzenhaus-archive',
+    },
+    {
+      title: "Farny Cathedral",
+      shortDesc:
+        "In the very centre of the ancient Hrodna, on Soviet Square, which changed many names in previous eras, in the Cathedral of St. Francis Xavier, there is an obelisk of the end of the 19th century, perpetuating the name of Anthony Tyzenhauz (1733–1785), a well-known political and public figure of the Grand Duchy of Lithuania, a philanthropist and a reformer.",
+      imgList: [
+        '/assets/sights/images/farny/1.jpg',
+        '/assets/sights/images/farny/2.jpg',
+        '/assets/sights/images/farny/3.jpg',
+        '/assets/sights/images/farny/4.jpg',
+        '/assets/sights/images/farny/5.jpg',
+        '/assets/sights/images/farny/6.jpg',
+        '/assets/sights/images/farny/7.jpg',
+        '/assets/sights/images/farny/8.jpg',
+        '/assets/sights/images/farny/9.jpg'
+      ],
+      routerLink: 'farny-cathedral',
     },
     {
       title: "Pharmacy Museum",
@@ -53,7 +70,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         '/assets/sights/images/pharmacy-museum/thumb/5.jpg',
         '/assets/sights/images/pharmacy-museum/thumb/6.jpg',
         '/assets/sights/images/pharmacy-museum/thumb/7.jpg',
-        '/assets/sights/images/pharmacy-museum/thumb/8.jpg',
+        '/assets/sights/images/pharmacy-museum/thumb/8.jpg'
       ],
       routerLink: 'pharmacy-museum',
     },
