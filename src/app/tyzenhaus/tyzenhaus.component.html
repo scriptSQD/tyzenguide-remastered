@@ -1,0 +1,152 @@
+<article class="flex flex-col justify-center items-center m-3">
+  <div class="flex flex-col w-full max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
+    <swiper
+      [slidesPerView]="2"
+      [spaceBetween]="10"
+      [navigation]="true"
+      [pagination]="{ clickable: true }"
+      [loop]="true"
+      class="select-none my-4 max-w-4xl w-full"
+    >
+      <ng-template swiperSlide *ngFor="let img of photos">
+        <img src="{{ img }}" alt="Tyzenhaus photos" class="object-cover" />
+      </ng-template>
+    </swiper>
+    <div class="mx-auto space-y-8 max-w-prose">
+      <h1 class="text-3xl font-bold leading-tight text-gray-900 sm:text-5xl">
+        Our inspirer - who is Antoni Tyzenhaus?
+      </h1>
+
+      <div class="inline-block pb-8 border-b-2 border-blue-500">
+        <p class="font-medium text-gray-600">by Tyzenguide Team</p>
+      </div>
+
+      <div class="prose prose-lg max-w-none">
+        <p>
+          <em
+            >When centuries keep traditions about a certain person, we can say
+            that this person was ahead of his time. Everyone in Hrodna knows
+            about Antoni Tyzenhaus.</em
+          >
+        </p>
+        <div class="not-prose">
+          <p>
+            Antoni Tyzenhaus is an amazing and in many ways mysterious person, a
+            dreamer, a romantic, a talented organizer.<br />He was one of the
+            few representatives of power in the history of the Commonwealth, who
+            vividly believed that it was possible to raise production in his
+            state to the level of the best European models. At the same time, he
+            not only believed, but also strove to implement it with all his
+            abilities. It was the patron of production. Manufactures, which he
+            managed to build and run, had a noticeable impact on the development
+            of industry in the Commonwealth, despite the fact that they did not
+            last long.<br />Count Antoni Tyzenhaus, the son of the Shmeltinsky
+            elder, was born in 1733. He received his initial education at home,
+            then he was assigned to the monastery school of the Jesuits in
+            Vilna.<br />In 1761 Antoni Tyzenhaus was elected to the Warsaw Seim,
+            and in 1763 he was appointed a great Lithuanian clerk. In 1765 King
+            Stanislav Augustus gave him the post of headman of Hrodna and a
+            Lithuanian outward treasurer. Taking up the matter, Antoni Tyzenhaus
+            set himself a goal worthy of a real altruist: to raise the welfare
+            of his native land. The income of the Hrodna economy, which
+            consisted of 200 villages, went to the royal table. The economy was
+            in complete stagnation. A lot of things had to be corrected… It was
+            necessary to improve crafts, industry, build roads, and build
+            housing. The task was not an easy one. But he was young, educated,
+            and most importantly, his goals coincided with what fate gave him.
+            He felt happy - and this feeling overshadowed any black doubt in
+            him. Having enlisted the support of the king who approved his plans,
+            the treasurer began to act...<br />He spared neither himself nor
+            those who were under his command. According to eyewitnesses, the
+            treasurer slept no more than three hours a day.<br />He started with
+            farming. In the very first year he organized a school of land
+            surveyors. On his instructions, they took up the draining of the
+            swamps. Under his personal supervision, the Neman was cleared from
+            Hrodna to Viliya. At the same time, the Mukhovets Canal was built, 8
+            miles long, connecting the Mukhovets and Pina rivers. At the same
+            time several large bridges and paved roads were built.<br />There
+            were not enough specialists. And Tyzenhaus took up the organization
+            of education. He founded a medical school and an institute of
+            midwifery in Hrodna. Expensive teachers had to be sent from Paris
+            and Montpellier. One can imagine how difficult it was to revive the
+            work of such institutions. The prejudice against natural knowledge
+            was so great at that time that both institutions did not find those
+            willing to study in them. Tyzenhaus had to make people study. In the
+            first year, the treasurer chose 15 young people from among the
+            serfs. People went to these institutions unwillingly. But by 1755
+            teaching at the school and institute went with success. This is how
+            the first medical institute in the Grand Duchy began its
+            activity.<br />In Hrodna Tyzenhaus set up a printing house for "His
+            Royal Majesty" in which a weekly newspaper began to be printed. In
+            the same place several schools were established at once: cadets,
+            accounting, veterinary, medical and surgical. The first public
+            library with an office of natural sciences was founded. The most
+            significant act of the indefatigable treasurer is the construction
+            and operation of many factories by him. Mainly factories were built
+            in Hrodna. Here are those that were launched: gold, silk, cloth,
+            hosiery, linen, linen, lace, hat, carriage, card, pins and needles,
+            weapons, files, steel tools, iron copper products, wax bleaching,
+            paints, leather. In addition, under Tyzenhaus, a cloth factory in
+            Brest and an ironworks in Brest, a linen factory in Shavly were
+            built and began to produce. In Hrodna, under him, the Merchants'
+            Bank was established.<br />Anthoni Tyzenhaus also opened the first
+            coffee shop in Hrodna in the 1770s. The cafe building was located on
+            the site of today's main building of the Hrodna State University.<br />The
+            troubles of Antoni Tyzenhaus began in 1780. He did not pay the
+            annual tax levied on factories. It was immediately followed by his
+            removal from the post of treasurer. The case was not brought to
+            court, but it had such an effect on the count that he went crazy -
+            “fell ill with melancholy” ... Without the owner, the factories soon
+            fell into decay.<br />The main reason for the decline of Tyzenhaus
+            manufactories was the failure to maintain the proportion between
+            production and sale of products. The lack of sales and the small
+            fund of factories led to the fact that the last few months of the
+            year had to stand idle...<br />The rest of the days Antoni Tyzenhaus
+            lived in seclusion. He died in Warsaw on March 31, 1785 at the age
+            of 52. His body was exhibited in the Carmelite church in the town of
+            Zheludok. There, in the family crypt, the count was buried.
+          </p>
+        </div>
+        <p>
+          One should speak of Antoni Tyzenhaus only as a national hero. He stood
+          at the origins of the development of the industry of the Grand Duchy.
+          He created and managed a whole network of so-called "royal economies"
+          in the principality, uniting trade, production and storage. The count
+          took on the unbearable burden of the engine of progress.<br />He
+          wanted to accelerate the movement of the flywheel of history
+          single-handedly- and overstrained.
+        </p>
+      </div>
+
+      <div class="text-indigo-900">
+        <h3>Sources:</h3>
+        <ul class="list-disc">
+          <li>
+            <a
+              href="https://myguidebook.ru/b/book/2988123418/120"
+              target="_blank"
+              rel="noopener"
+              class="flex flex-row items-center"
+            >
+              https://myguidebook.ru/b/book/2988123418/120
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="ml-1.5 w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                ></path></svg
+            ></a>
+          </li>
+          <li>Yuri Gardzeeu - "Antoni Tyzenhaus and his epoch"</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>

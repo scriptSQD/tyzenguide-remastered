@@ -1,11 +1,14 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, of } from 'rxjs';
+
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Sight } from './model/sight.model';
 
 SwiperCore.use([Navigation, Pagination]);
+
+var apiLoaded: boolean = false;
 
 @Component({
   selector: 'app-sight',
@@ -13,16 +16,20 @@ SwiperCore.use([Navigation, Pagination]);
   styleUrls: ['./sight.component.scss'],
 })
 export class SightComponent implements OnInit {
+
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   sightName?: string | null;
-  sight?: Observable<any | Sight>;
+  sight?: Observable<Sight>;
   prose?: string;
 
   initYouTubePlayer() {
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    document.body.appendChild(tag);
+    if (apiLoaded) {
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      document.body.appendChild(tag);
+      apiLoaded = true;
+    }
   }
 
   ngOnInit(): void {
