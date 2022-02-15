@@ -93,17 +93,41 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       title: "Haradnitsa History Museum",
       shortDesc:
-        "We graciously invite you to visit The Haradnitsa History Museum, which will inspire you to continue your journey in the footsteps of Tyzenhaus! It is a historically valuable building for our town, which will tell you about a politician, count and reformer - Antony Tyzenhauz.",
-      imgList: [],
+        "We graciously invite you to visit The Haradnitsa History Museum, which will inspire you to continue your journey in the footsteps of Tyzenhaus! It is a historically valuable building for our town, which will tell you about a politician, count and reformer - Antony Tyzenhauz, his life, achievements and more.",
+      imgList: [
+        "/assets/sights/images/haradnitsa-museum/thumb/1.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/2.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/3.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/4.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/5.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/6.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/7.jpg",
+        "/assets/sights/images/haradnitsa-museum/thumb/8.jpg"
+      ],
       routerLink: "haradnitsa-museum"
+    },
+    {
+      title: "Hrodna Puppet Theatre",
+      shortDesc:
+        "Hrodna Puppet Theatre is considered to be a milestone of Hrodna history that perfectly fits the modern look of the city. The building has changed it appearance countless times during its existence and witnessed a lot of acting troupes. It has attracted spectators of all ages with its novelty and originality of performances.",
+      imgList: [
+        "/assets/sights/images/puppet-theatre/thumb/1.png",
+        "/assets/sights/images/puppet-theatre/thumb/2.png",
+        "/assets/sights/images/puppet-theatre/thumb/3.png",
+        "/assets/sights/images/puppet-theatre/thumb/4.png",
+        "/assets/sights/images/puppet-theatre/thumb/5.png",
+        "/assets/sights/images/puppet-theatre/thumb/6.png",
+        "/assets/sights/images/puppet-theatre/thumb/7.png",
+        "/assets/sights/images/puppet-theatre/thumb/8.png"
+      ],
+      routerLink: "puppet-theatre"
     },
     {
       title: "The Palace of Tyzenhaus",
       shortDesc:
-        "",
+        "Nowadays nothing is left from once a huge palace of Tyzenhaus, but once it was a spectacular sight that had its place in the unique landscape of the city. The palace was built by an Italian architect Giuseppe Sacco in XVIII century. August Stanislav Ponyatowsky compared the palace to the city of Vienna in size. Now, on the  place where governor's palace once was destroyed by fire, there is a monument of the Eternal Flame in honor of the fallen heroes of WWII.",
       imgList: [
         "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpg",
-        "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpg",
         "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpeg",
         "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpeg",
         "/assets/sights/images/palace-of-tyzenhaus/thumb/3.jpg"

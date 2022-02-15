@@ -1,9 +1,27 @@
 {
-  "name": "Farny Cathedral",
-  "youtube": "https://youtube.com/embed/DO7P_xG26_o?autoplay=0&mute=0",
+  "name": "Haradnitsa History Museum",
+  "youtube": "https://youtube.com/embed/EU2z6cg1nLU?autoplay=0&mute=0",
   "images": {
-    "full": [],
-    "thumb": []
+    "full": [
+      "/assets/sights/images/haradnitsa-museum/full/1.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/2.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/3.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/4.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/5.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/6.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/7.jpg",
+      "/assets/sights/images/haradnitsa-museum/full/8.jpg"
+    ],
+    "thumb": [
+      "/assets/sights/images/haradnitsa-museum/thumb/1.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/2.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/3.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/4.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/5.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/6.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/7.jpg",
+      "/assets/sights/images/haradnitsa-museum/thumb/8.jpg"
+    ]
   },
   "title": "Haradnitsa History Museum - a part of Tyzenhaus' hospitability.",
   "prose": {
