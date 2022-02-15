@@ -96,6 +96,19 @@ export class HomeComponent implements OnInit, AfterViewInit {
         "We graciously invite you to visit The Haradnitsa History Museum, which will inspire you to continue your journey in the footsteps of Tyzenhaus! It is a historically valuable building for our town, which will tell you about a politician, count and reformer - Antony Tyzenhauz.",
       imgList: [],
       routerLink: "haradnitsa-museum"
+    },
+    {
+      title: "The Palace of Tyzenhaus",
+      shortDesc:
+        "",
+      imgList: [
+        "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpg",
+        "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpg",
+        "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpeg",
+        "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpeg",
+        "/assets/sights/images/palace-of-tyzenhaus/thumb/3.jpg"
+      ],
+      routerLink: "palace-of-tyzenhaus"
     }
   ];
 

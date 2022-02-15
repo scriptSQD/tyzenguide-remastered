@@ -1,0 +1,40 @@
+{
+  "name": "The Palace of Tyzenhaus",
+  "youtube": "",
+  "images": {
+    "full": [
+      "/assets/sights/images/palace-of-tyzenhaus/full/1.jpeg",
+      "/assets/sights/images/palace-of-tyzenhaus/full/2.jpeg",
+      "/assets/sights/images/palace-of-tyzenhaus/full/3.jpg",
+      "/assets/sights/images/palace-of-tyzenhaus/full/1.jpg",
+      "/assets/sights/images/palace-of-tyzenhaus/full/2.jpg"
+    ],
+    "thumb": [
+      "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpeg",
+      "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpeg",
+      "/assets/sights/images/palace-of-tyzenhaus/thumb/3.jpg",
+      "/assets/sights/images/palace-of-tyzenhaus/thumb/1.jpg",
+      "/assets/sights/images/palace-of-tyzenhaus/thumb/2.jpg"
+    ]
+  },
+  "title": "The Palace of Tyzenhaus - destroyed legacy of generations.",
+  "prose": {
+    "intro": "Nowadays nothing is left from once a huge palace of Tyzenhaus and of all the following Hrodna governors, but once it was a spectacular sight that had its place in unique landscape of the city. So, we would like to offer you a visit to this wonderful monument of Belarusian history.The palace was built by an Italian architect Giuseppe Sacco in XVIII century in the style of classicism. We also know about the second architect, who designed the palace, Johan Moeser, but he had an argument with Tysenhaus and left Hrodna.",
+    "paragraphs": [
+      "The front western facade of the palace was facing the square, which, on its way through centuries,has changed its name eight times from Haradnitskaya to the square of Tysenhaus. The botanical garden, founded by Gilibert in 1777, and the park were located right beside the palace. Unfortunately, the exact date of the building's construction and its original appearance are still unknown due to the lack of necessary documents.",
+      "According to the documents, that have made it into our time, there were 56 large and small rooms in the palace. The building was constantly rebuilt: rooms were united or separated, doors and windows were destroyed and new ones appeared. In the first half of XIX century, all sorts of repairs and redesigns were held regularly in the house. More than 30 types of materials were used to redesign the interior and exterior. The governor's personal study was located on the second floor and had a great view on the square, however, the entrance wasn't allowed to common folk.",
+      "The palace was decorated with a statue of a Roman goddess- Ceres, it wasn't very unusual to use sculptures of Roman or Greek gods and heroes in decorations at the time, but it was outstanding,  that in antiquityCeres was thought to be the goddess of peasants, as she was awarding her followers with fertile soil and rich harvest.Suchact of solidarity between aristocrats and peasants is interesting and tells a lot about the personality of Tysenhaus. Historians tend to think that it was governor's personal wish to have such decoration on top of the palace.",
+      "British historian William Coxe described Hrodna as “An unbelievable mix of miserable huts, half-decayed buildings and ruins, with a golden gate”. The only thing that could help him bear the disappointment with the visit was the evening he spent with Polish-Lithuanian aristocracy in the palace. He enjoyed their company, folk dances, chatting with people and making new acquaintances.In XIX century, as Hrodna transferred from divided Polish-Lithuanian Commonwealth into Russian Empire, so did the palace. This event brought us some new interesting facts. Governor Urusovwas fond of riding a bicycle through multiple rooms. It confirms an outstanding dimension of the building. August Stanislav Ponyatowsky, wrote in his memoirs, that palace was “Comparable to the city of Vienna in size”, and even though it is clearly an exaggeration, he later states that it is hard to even imagine the sizes of governor's residence.",
+      "Unfortunately, a large size didn't help the architectural monument survive into our times, as it was destroyed during the First World War. The last known information written down before the palace destruction is contained inside a German officer's diary, where he writes about his visit to the freshly-occupied palace, gives a brief description of palace interior and shares his impression after seeing the real-life sized stuffed bison. The last sentence, describing the palace in real-time is \"Most of the building turned into a blazing sea of flames\"."
+    ],
+    "conclusion": "Now, on a place where governor's palace once was destroyed by a fire, there is a monument of the Eternal Flame in honor of the fallen heroes of WWII, so, Haradnitsa, started by Tyzenhaus, is still the heart of our city."
+  },
+  "sources": {
+    "links": [],
+    "others": [
+      "I. Trusov & A. Chernyakevich - \"Haradnitsa: In the shadow of Tserera\"; the Newspaper \"Vecherniy Hrodna\"",
+      "N. Kanyuk - \"The Mysteries of dungeon - what's hidden under the Gilibert's Park\"; the Newspaper \"Vecherniy Hrodna\"",
+      "I. Trusov & A. Chernyakevich - \"Haradnitsa\"; the Newspaper \"Vecherniy Hrodna\""
+    ]
+  }
+}

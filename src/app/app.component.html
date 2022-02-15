@@ -1,9 +1,10 @@
-<a
+<span
   class="w-full inline-flex items-center justify-center h-fit bg-white z-20"
-  href="/"
 >
-  <img src="/assets/logo.png" alt="Tynzeguide Logo" class="w-24 h-24" />
-</a>
+  <a class="w-fit h-fit" href="/">
+    <img src="/assets/logo.png" alt="Tynzeguide Logo" class="w-24 h-24" />
+  </a>
+</span>
 
 <header
   class="sticky top-0 grid bg-white shadow z-10 md:px-3"
@@ -159,8 +160,8 @@
     </svg>
   </button>
 
-  <ais-instantsearch [config]="config">
-    <ais-search-box></ais-search-box>
+  <ais-instantsearch [config]="config" class="flex flex-col gap-y-2">
+    <app-debounced-search-box [delay]="350"></app-debounced-search-box>
     <ais-hits>
       <ng-template let-hits="hits">
         <ol class="ais-Hits-list">

@@ -14,6 +14,7 @@ import { SightsComponent } from './sights/sights.component';
 import { UrlSafePipe } from './url-safe.pipe';
 import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
 import { NgAisModule } from 'angular-instantsearch';
+import { DebouncedSearchBoxComponent } from './debounced-search-box-component/debounced-search-box-component.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgAisModule } from 'angular-instantsearch';
     SightComponent,
     SightsComponent,
     UrlSafePipe,
-    TyzenhausComponent
+    TyzenhausComponent,
+    DebouncedSearchBoxComponent
   ],
   imports: [
     BrowserModule,

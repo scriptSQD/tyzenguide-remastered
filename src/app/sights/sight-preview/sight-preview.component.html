@@ -1,4 +1,7 @@
-<a [routerLink]="['/sights', routerParam]" class="block overflow-hidden rounded-2xl select-none">
+<a
+  [routerLink]="['/sights', routerParam]"
+  class="block overflow-hidden rounded-2xl select-none"
+>
   <swiper
     [slidesPerView]="1"
     [spaceBetween]="35"
@@ -7,10 +10,7 @@
     class="select-none bg-gray-900"
     id="gallery"
   >
-    <ng-template
-      swiperSlide
-      *ngFor="let img of thumbList;"
-    >
+    <ng-template swiperSlide *ngFor="let img of thumbList" class="my-auto">
       <a>
         <img
           class="w-full h-full object-cover"
