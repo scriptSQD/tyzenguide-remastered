@@ -21,6 +21,8 @@
     "@angular/youtube-player": "^13.2.2",
     "@tailwindcss/typography": "^0.5.1",
     "@types/rellax": "^1.7.4",
+    "algoliasearch": "^4.12.1",
+    "angular-instantsearch": "^4.1.0",
     "image-size": "^1.0.1",
     "path-browserify": "^1.0.1",
     "photoswipe": "^4.1.3",

@@ -1,0 +1,26 @@
+{
+  "name": "Farny Cathedral",
+  "youtube": "https://youtube.com/embed/DO7P_xG26_o?autoplay=0&mute=0",
+  "images": {
+    "full": [],
+    "thumb": []
+  },
+  "title": "Haradnitsa History Museum - a part of Tyzenhaus' hospitability.",
+  "prose": {
+    "intro": "Anthony Tyzengauz is known for his hospitality. Inviting foreign specialists, he didn't leave their families without a comfortable workplace and warm accommodation, while they were working on the construction of the manufactories in Hrodna.",
+    "paragraphs": [
+      "The Haradnitsa History Museum (former craftsman's house) is located in the former craftsmen's district. Back in the times of Tyzenhaus, the mayor himself invited foreign artisans and built this village with twenty wooden workshop houses for them and their families. Of all the twenty houses, only one has been saved.",
+      "Nowadays, House №19 is located on Ozheshko Street. It is a historically valuable building for our town, which now houses the Haradnitsa History Museum. It tells us about a politician, count and reformer - Antoni Tyzenhaus.",
+      "As you approach the museum, you'll notice a beautiful iron sign on the front of the building, 'Dom Ramestvau'. When you enter, the first thing that catches your eye is the portrait of Tyzenhaus, the clan chief and the coat of arms of the \"Buivol\" of the Tyzenhaus family. The museum also features a model of the first large-scale town-planning complex in the history of Belarusian architecture, which was built in the second half of the 18th century on the initiative of Antoni. One of the exhibit halls shows Tyzenhaus' cultural and educational reforms, another one - the reconstructed interior of \"craftsmen's houses\"."
+    ],
+    "conclusion": "We graciously invite you to visit this historic site, which in turn will inspire you to continue your journey in the footsteps of Tyzenhaus!"
+  },
+  "sources": {
+    "links": [
+      "https://s13.ru/archives/29291",
+      "http://museums.by/muzei/muzei-g-grodno-i-grodnenskoy-oblasti/muzey-istorii-gorodnitsy",
+      "https://harodnia.com/be/uczora/vkl-recz-paspalitaja/575-elena-kvitnitskaya-stroitelstvo-tyzengauza-v-grodno-chast-3"
+    ],
+    "others": []
+  }
+}

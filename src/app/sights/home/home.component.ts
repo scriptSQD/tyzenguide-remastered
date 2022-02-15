@@ -89,6 +89,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
         "/assets/sights/images/pharmacy-museum/thumb/8.jpg"
       ],
       routerLink: "pharmacy-museum"
+    },
+    {
+      title: "Haradnitsa History Museum",
+      shortDesc:
+        "We graciously invite you to visit The Haradnitsa History Museum, which will inspire you to continue your journey in the footsteps of Tyzenhaus! It is a historically valuable building for our town, which will tell you about a politician, count and reformer - Antony Tyzenhauz.",
+      imgList: [],
+      routerLink: "haradnitsa-museum"
     }
   ];
 

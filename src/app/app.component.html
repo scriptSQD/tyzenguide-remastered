@@ -1,12 +1,17 @@
 <a
-  class="mx-auto inline-flex items-center justify-center w-fit h-fit bg-white z-20"
+  class="w-full inline-flex items-center justify-center h-fit bg-white z-20"
   href="/"
 >
   <img src="/assets/logo.png" alt="Tynzeguide Logo" class="w-24 h-24" />
 </a>
 
-<header class="sticky top-0 flex flex-col bg-white shadow z-10">
-  <nav class="flex items-center justify-between max-w-5xl px-4 py-3 mx-auto">
+<header
+  class="sticky top-0 grid bg-white shadow z-10 md:px-3"
+  style="grid-template-columns: repeat(3, 1fr)"
+>
+  <nav
+    class="flex items-center justify-between max-w-5xl px-4 py-3 mx-auto col-start-2"
+  >
     <ul
       class="flex items-center space-x-2 text-base md:text-lg font-sans font-medium text-gray-500"
     >
@@ -19,6 +24,23 @@
       </li>
     </ul>
   </nav>
+  <button
+    class="col-start-3 w-fit h-fit self-center justify-self-end mx-3.5"
+    (click)="changeDropdownState()"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="32px"
+      height="32px"
+      class="w-7 h-7 lg:w-auto lg:h-auto"
+    >
+      <path
+        fill="#5B5B5B"
+        d="M9.5,19c2.132,0,4.151-0.703,5.806-1.987l6.84,6.84C22.244,23.951,22.372,24,22.5,24	s0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707l-6.787-6.787c0.05-0.048,0.104-0.09,0.154-0.139	C18.013,14.427,19,12.041,19,9.5C19,4.262,14.738,0,9.5,0S0,4.262,0,9.5S4.262,19,9.5,19z M9.5,1C14.187,1,18,4.813,18,9.5	c0,2.273-0.883,4.409-2.487,6.013S11.773,18,9.5,18C4.813,18,1,14.187,1,9.5S4.813,1,9.5,1z"
+      />
+    </svg>
+  </button>
 </header>
 
 <router-outlet></router-outlet>
@@ -121,3 +143,59 @@
     </div>
   </div>
 </footer>
+
+<section class="dropdown" id="dropdown">
+  <button (click)="changeDropdownState()" class="w-fit h-fit ml-auto">
+    <svg
+      fill="#fff"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 50 50"
+      width="50px"
+      height="50px"
+    >
+      <path
+        d="M25,2C12.319,2,2,12.319,2,25s10.319,23,23,23s23-10.319,23-23S37.681,2,25,2z M33.71,32.29c0.39,0.39,0.39,1.03,0,1.42	C33.51,33.9,33.26,34,33,34s-0.51-0.1-0.71-0.29L25,26.42l-7.29,7.29C17.51,33.9,17.26,34,17,34s-0.51-0.1-0.71-0.29	c-0.39-0.39-0.39-1.03,0-1.42L23.58,25l-7.29-7.29c-0.39-0.39-0.39-1.03,0-1.42c0.39-0.39,1.03-0.39,1.42,0L25,23.58l7.29-7.29	c0.39-0.39,1.03-0.39,1.42,0c0.39,0.39,0.39,1.03,0,1.42L26.42,25L33.71,32.29z"
+      />
+    </svg>
+  </button>
+
+  <ais-instantsearch [config]="config">
+    <ais-search-box></ais-search-box>
+    <ais-hits>
+      <ng-template let-hits="hits">
+        <ol class="ais-Hits-list">
+          <li *ngFor="let hit of hits" class="ais-Hits-item">
+            <a
+              href="/sights/{{ hit.routerLink }}"
+              class="flex flex-col md:flex-row gap-x-3"
+            >
+              <swiper
+                [slidesPerView]="1"
+                [spaceBetween]="35"
+                [loop]="true"
+                [pagination]="{ clickable: true }"
+                class="select-none bg-white"
+              >
+                <ng-template swiperSlide *ngFor="let img of hit.imgList">
+                  <img src="{{ img }}" alt="{{ hit.title }} photos" />
+                </ng-template>
+              </swiper>
+              <div>
+                <ais-highlight
+                  attribute="title"
+                  [hit]="hit"
+                  class="font-semibold"
+                ></ais-highlight>
+                <br />
+                <ais-highlight
+                  attribute="shortDesc"
+                  [hit]="hit"
+                ></ais-highlight>
+              </div>
+            </a>
+          </li>
+        </ol>
+      </ng-template>
+    </ais-hits>
+  </ais-instantsearch>
+</section>

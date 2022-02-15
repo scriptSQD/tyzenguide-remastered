@@ -1,5 +1,18 @@
 :host {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dropdown {
+  @apply fixed hidden
+            flex-col gap-y-4
+            w-screen h-screen
+            bg-gray-900 bg-opacity-80 z-50
+            px-6 py-7
+            overflow-y-scroll;
+}
+
+swiper {
+    @apply  max-w-[16rem] sm:max-w-[23.5rem];
 }

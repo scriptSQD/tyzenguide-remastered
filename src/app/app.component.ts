@@ -1,4 +1,12 @@
 import { Component } from '@angular/core';
+import algoliasearch from 'algoliasearch/lite';
+
+var showingDropdown: boolean = false;
+
+const searchClient = algoliasearch(
+  "BKR6K20R7M",
+  "9d99bad05fa36f468e337ff1683e3abf"
+);
 
 @Component({
   selector: 'app-root',
@@ -6,5 +14,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tyzenguide-remastered';
+
+  changeDropdownState() {
+    showingDropdown = !showingDropdown;
+    document.getElementById('dropdown')!.style.display = showingDropdown ? "flex" : "none";
+  }
+
+  config = {
+    indexName: 'sights',
+    searchClient
+  };
+
 }

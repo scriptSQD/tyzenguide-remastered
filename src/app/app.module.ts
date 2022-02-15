@@ -13,6 +13,7 @@ import { SightComponent } from './sights/sight/sight.component';
 import { SightsComponent } from './sights/sights.component';
 import { UrlSafePipe } from './url-safe.pipe';
 import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
+import { NgAisModule } from 'angular-instantsearch';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
     AppRoutingModule,
     SwiperModule,
     YouTubePlayerModule,
-    HttpClientModule
+    HttpClientModule,
+    NgAisModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
