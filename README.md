@@ -1,27 +1,20 @@
-# TyzenguideRemastered
+# TyzenGuide Remastered - the revival.
+We were at the risk of losing it all, but then TyzenGuide Remastered was born... This is the revival of not even started Web-Application for TyzenGuide project.  
+  
+Headed by the fellow members of Grodno City Gimnasium, this project represents the cultural legacy of our wonderful city in the most modern way. Captivating videos, interesting stories and user-friendliness of the web application are the main traits of our success here.  
+  
+We want to spread the word and let you do something similar. Documentation for data structure will eventually be provided to help others sort out the principles, used in our work.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## Credits
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Of course this reincarnation wouldn't have been possible without some help from aside.  
+  
+*Many of our components are taken from **[HyperUI](https://hyperui.dev)** (with a bit of hand-editing), so please take your time to appreciate **[Mark Mead's](https://github.com/markmead)** job.*  
+  
+A lot of help has been provided from other project members, and I thank them all for the assistance.  
+  
+**We have used this this technologies as well:**
+- *[Angular v13](https://angular.io): For all the SPA experience and data/layout flexibility*
+- *[Algolia Angular InstantSearch](https://github.com/algolia/angular-instantsearch): Search functionality*
+- *[TailwindCSS](https://tailwindcss.com/): Layout styling*
+- *[SwiperJS](https://swiperjs.com/): Carousel galleries.*
