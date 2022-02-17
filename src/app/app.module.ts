@@ -15,6 +15,8 @@ import { UrlSafePipe } from './url-safe.pipe';
 import { TyzenhausComponent } from './tyzenhaus/tyzenhaus.component';
 import { NgAisModule } from 'angular-instantsearch';
 import { DebouncedSearchBoxComponent } from './debounced-search-box-component/debounced-search-box-component.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { AuthorsComponent } from './authors/authors.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DebouncedSearchBoxComponent } from './debounced-search-box-component/de
     SightsComponent,
     UrlSafePipe,
     TyzenhausComponent,
-    DebouncedSearchBoxComponent
+    DebouncedSearchBoxComponent,
+    ContactsComponent,
+    AuthorsComponent
   ],
   imports: [
     BrowserModule,

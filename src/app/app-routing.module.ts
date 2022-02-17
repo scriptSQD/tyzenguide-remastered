@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthorsComponent } from './authors/authors.component';
+import { ContactsComponent } from './contacts/contacts.component';
 import { MainComponent } from './main/main.component';
 import { HomeComponent } from './sights/home/home.component';
 import { SightComponent } from './sights/sight/sight.component';
@@ -14,7 +16,9 @@ const routes: Routes = [
     ]
   },
   { path: 'sights/:sight', component: SightComponent },
-  { path: 'tyzenhaus', component: TyzenhausComponent }
+  { path: 'tyzenhaus', component: TyzenhausComponent },
+  { path: 'contacts', component: ContactsComponent },
+  { path: 'authors', component: AuthorsComponent }
 ];
 
 @NgModule({
