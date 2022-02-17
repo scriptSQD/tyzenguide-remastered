@@ -18,6 +18,7 @@ export class AppComponent {
   changeDropdownState() {
     showingDropdown = !showingDropdown;
     document.getElementById('dropdown')!.style.display = showingDropdown ? "flex" : "none";
+    document.body.style.overflow = showingDropdown ? "hidden" : "";
   }
 
   config = {

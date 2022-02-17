@@ -148,7 +148,7 @@
   </div>
 </footer>
 
-<section class="dropdown" id="dropdown">
+<section class="dropdown hide-scrollbar" id="dropdown">
   <button (click)="changeDropdownState()" class="w-fit h-fit ml-auto">
     <svg
       fill="#fff"
@@ -165,7 +165,7 @@
 
   <ais-instantsearch [config]="config" class="flex flex-col gap-y-2">
     <app-debounced-search-box [delay]="450"></app-debounced-search-box>
-    <ais-hits>
+    <ais-hits class="searchRes hide-scrollbar">
       <ng-template let-hits="hits">
         <ol class="ais-Hits-list">
           <li *ngFor="let hit of hits" class="ais-Hits-item">
