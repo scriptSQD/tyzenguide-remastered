@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       routerLink: "karalino"
     },
     {
-      title: "Tyzenhaus' Archive",
+      title: "Tyzenhaus Archive",
       shortDesc:
         "Tyzenhauz's Archive is a place steeped in history. An archive was created with the formation of the Grodno province and the establishment of the provincial government. In the 1880s, the National Historical Archive was located in the building. In 1900, the building was completely transferred to the archive of the Hrodno provincial Government. The external look of the archive attracts attention of tourists and residents of Hrodno.",
       imgList: [
