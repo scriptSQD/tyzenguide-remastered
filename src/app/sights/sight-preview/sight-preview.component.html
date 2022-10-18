@@ -1,15 +1,8 @@
 <a
-  [routerLink]="['/sights', routerParam]"
+  [routerLink]="['/sights', link]"
   class="block overflow-hidden rounded-2xl select-none"
 >
-  <swiper
-    [slidesPerView]="1"
-    [spaceBetween]="35"
-    [loop]="true"
-    [pagination]="{ clickable: true }"
-    class="select-none bg-gray-900"
-    id="gallery"
-  >
+  <swiper [config]="SwiperConfig" class="select-none bg-gray-900" id="gallery">
     <ng-template swiperSlide *ngFor="let img of thumbList" class="my-auto">
       <a>
         <img

@@ -163,7 +163,7 @@
     </svg>
   </button>
 
-  <ais-instantsearch [config]="config" class="flex flex-col gap-y-2">
+  <ais-instantsearch [config]="aisConfig" class="flex flex-col gap-y-2">
     <app-debounced-search-box [delay]="450"></app-debounced-search-box>
     <ais-hits class="searchRes hide-scrollbar">
       <ng-template let-hits="hits">

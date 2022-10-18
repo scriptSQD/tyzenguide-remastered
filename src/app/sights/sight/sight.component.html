@@ -11,14 +11,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <swiper
-      [slidesPerView]="1"
-      [spaceBetween]="10"
-      [navigation]="true"
-      [pagination]="{ clickable: true }"
-      [loop]="true"
-      class="select-none my-4 max-w-4xl w-full"
-    >
+    <swiper [config]="SwiperConfig" class="select-none my-4 max-w-4xl w-full">
       <ng-template
         swiperSlide
         *ngFor="let image of sight.images.thumb"

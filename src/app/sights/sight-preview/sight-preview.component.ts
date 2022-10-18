@@ -1,26 +1,25 @@
-import { OnInit, Component, Input } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component, Input } from "@angular/core";
+import { SwiperOptions } from "swiper";
 
 @Component({
-  selector: 'app-sight-preview',
-  templateUrl: './sight-preview.component.html',
-  styleUrls: ['./sight-preview.component.scss']
+  selector: "app-sight-preview",
+  templateUrl: "./sight-preview.component.html",
+  styleUrls: ["./sight-preview.component.scss"]
 })
-export class SightPreviewComponent implements OnInit {
+export class SightPreviewComponent {
+  SwiperConfig: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 35,
+    loop: true,
+    pagination: {
+      clickable: true
+    }
+  };
 
-  constructor (private route: ActivatedRoute,
-              private router: Router) {};
+  constructor() {}
 
-  @Input('tyzen-title') title!: string;
-
-  @Input('tyzen-description') desc!: string;
-
-  @Input('tyzen-thumbnail-list') thumbList!: string[];
-
-  @Input('tyzen-router-link') routerLink!: string;
-
-  @Input('tyzen-router-sight-param') routerParam!: string;
-
-  ngOnInit(): void {};
-
+  @Input("title") title!: string;
+  @Input("description") desc!: string;
+  @Input("thumbnail-list") thumbList!: string[];
+  @Input("link") link!: string;
 }

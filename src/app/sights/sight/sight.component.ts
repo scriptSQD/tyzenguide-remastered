@@ -1,44 +1,39 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { HttpClient } from "@angular/common/http";
+import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
+import { Observable, of } from "rxjs";
 
-import SwiperCore, { Navigation, Pagination } from 'swiper';
-import { Sight } from './model/sight.model';
+import SwiperCore, { Navigation, Pagination, SwiperOptions } from "swiper";
+
+import { Sight } from "./model/sight.model";
 
 SwiperCore.use([Navigation, Pagination]);
 
-var apiLoaded: boolean = false;
-
 @Component({
-  selector: 'app-sight',
-  templateUrl: './sight.component.html',
-  styleUrls: ['./sight.component.scss'],
+  selector: "app-sight",
+  templateUrl: "./sight.component.html",
+  styleUrls: ["./sight.component.scss"]
 })
 export class SightComponent implements OnInit {
-
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  SwiperConfig: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    navigation: true,
+    pagination: { clickable: true }
+  };
 
   sightName?: string | null;
   sight?: Observable<Sight>;
   prose?: string;
 
-  initYouTubePlayer() {
-    if (apiLoaded) {
-      const tag = document.createElement('script');
-      tag.src = 'https://www.youtube.com/iframe_api';
-      document.body.appendChild(tag);
-      apiLoaded = true;
-    }
-  }
+  constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.initYouTubePlayer();
-
-    this.sightName = this.route.snapshot.paramMap.get('sight');
+    this.sightName = this.route.snapshot.paramMap.get("sight");
     this.http
-      .get<Sight>('/assets/sights/data/' + this.sightName + '.json')
-      .subscribe((res) => {
+      .get<Sight>(`/assets/sights/data/${this.sightName}.json`)
+      .subscribe(res => {
         this.sight = of(res);
       });
   }

@@ -16,12 +16,12 @@
   class="flex flex-row flex-wrap justify-evenly items-center mx-auto my-6 gap-y-5 gap-x-2 px-4"
 >
   <app-sight-preview
-    *ngFor="let sight of previewSights"
+    *ngFor="let sight of sightPreviews"
     class="max-w-xs sm:max-w-sm"
-    tyzen-title="{{ sight.title }}"
-    tyzen-description="{{ sight.shortDesc }}"
-    [tyzen-thumbnail-list]="sight.imgList"
-    tyzen-router-sight-param="{{ sight.routerLink }}"
+    title="{{ sight.title }}"
+    description="{{ sight.shortDesc }}"
+    [thumbnail-list]="sight.imgList"
+    link="{{ sight.routerLink }}"
   >
   </app-sight-preview>
 </div>
