@@ -133,7 +133,6 @@
         <a class="hover:opacity-75" href="/contacts">Contacts</a>
         <a class="hover:opacity-75" href="/authors">Authors</a>
       </nav>
-
       <p class="max-w-lg mx-auto text-xs text-gray-500">
         Tyzenguide is a group of people, passionate about Hrodna historical
         heritage. We hope we can interest you too!
@@ -173,22 +172,17 @@
               href="/sights/{{ hit.routerLink }}"
               class="flex flex-col md:flex-row gap-x-3"
             >
-              <swiper
-                [slidesPerView]="1"
-                [spaceBetween]="35"
-                [loop]="true"
-                [pagination]="{ clickable: true }"
-                class="select-none bg-white"
-              >
-                <ng-template swiperSlide *ngFor="let img of hit.imgList">
-                  <img src="{{ img }}" alt="{{ hit.title }} photos" />
-                </ng-template>
-              </swiper>
+              <img
+                *ngIf="hit.imgList[0] as img"
+                src="{{ img }}"
+                alt="{{ hit.title }} photos"
+                class="max-w-full md:max-w-[33%]"
+              />
               <div>
                 <ais-highlight
                   attribute="title"
                   [hit]="hit"
-                  class="font-semibold"
+                  class="text-lg my-2 font-semibold"
                 ></ais-highlight>
                 <br />
                 <ais-highlight
