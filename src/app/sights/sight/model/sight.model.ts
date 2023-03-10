@@ -1,6 +1,6 @@
 import { Images } from "./images.model";
 import { Prose } from "./prose.model";
-import { Source } from "./source.model";
+import { Sources } from "./source.model";
 
 export class Sight {
     name!: string;
@@ -8,5 +8,5 @@ export class Sight {
     images!: Images;
     title!: string;
     prose!: Prose;
-    sources!: Source;
+    sources!: Sources;
 }

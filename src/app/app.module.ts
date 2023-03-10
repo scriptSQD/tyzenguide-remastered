@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserModule } from "@angular/platform-browser";
-import { YouTubePlayerModule } from "@angular/youtube-player";
 import { SwiperModule } from "swiper/angular";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -11,7 +10,7 @@ import { HomeComponent } from "./sights/home/home.component";
 import { SightPreviewComponent } from "./sights/sight-preview/sight-preview.component";
 import { SightComponent } from "./sights/sight/sight.component";
 import { SightsComponent } from "./sights/sights.component";
-import { UrlSafePipe } from "./url-safe.pipe";
+import { UrlSafePipe } from "./pipes/url-safe.pipe";
 import { TyzenhausComponent } from "./tyzenhaus/tyzenhaus.component";
 import { NgAisModule } from "angular-instantsearch";
 import { DebouncedSearchBoxComponent } from "./debounced-search-box-component/debounced-search-box-component.component";
@@ -40,7 +39,6 @@ import { IsLoadingDirective } from "./components/loader/loader.directive";
     BrowserModule,
     AppRoutingModule,
     SwiperModule,
-    YouTubePlayerModule,
     HttpClientModule,
     NgAisModule.forRoot()
   ],

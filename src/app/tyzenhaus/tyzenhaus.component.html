@@ -6,10 +6,11 @@
       [navigation]="true"
       [pagination]="{ clickable: true }"
       [loop]="true"
+      [lazy]="{ enabled: true, loadPrevNext: true }"
       class="select-none my-4 max-w-4xl w-full"
     >
       <ng-template swiperSlide *ngFor="let img of photos">
-        <img src="{{ img }}" alt="Tyzenhaus photos" class="object-cover" />
+        <img src="{{ img }}" alt="Tyzenhaus photos" class="object-cover" loading="lazy" />
       </ng-template>
     </swiper>
     <div class="mx-auto space-y-8 max-w-prose">
@@ -24,7 +25,7 @@
       <div class="prose prose-lg max-w-none">
         <p>
           <em
-            >When centuries keep traditions about a certain person, we can say
+          >When centuries keep traditions about a certain person, we can say
             that this person was ahead of his time. Everyone in Hrodna knows
             about Antoni Tyzenhaus.</em
           >
@@ -141,8 +142,10 @@
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                ></path></svg
-            ></a>
+                ></path>
+              </svg
+              >
+            </a>
           </li>
           <li>Yuri Gardzeeu - "Antoni Tyzenhaus and his epoch"</li>
         </ul>

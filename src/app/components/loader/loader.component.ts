@@ -14,6 +14,7 @@ import { Component } from "@angular/core";
         gap: 0.25rem;
         margin: 0.75rem;
       }
+
       .spin {
         display: inline-block;
         width: 65px;
@@ -24,14 +25,16 @@ import { Component } from "@angular/core";
         animation: spin 1s cubic-bezier(0.76, 0, 0.24, 1) infinite;
         -webkit-animation: spin 1s cubic-bezier(0.76, 0, 0.24, 1) infinite;
       }
+
       @keyframes spin {
         to {
-          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
         }
       }
+
       @-webkit-keyframes spin {
         to {
-          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
         }
       }
     `

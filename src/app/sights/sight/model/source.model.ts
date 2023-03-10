@@ -1,4 +1,4 @@
-export class Source {
+export class Sources {
     links!: string[];
     others!: string[];
 }

@@ -2,23 +2,21 @@ import { Directive, Input, TemplateRef, ViewContainerRef } from "@angular/core";
 import { LoaderComponent } from "./loader.component";
 
 @Directive({
-  selector: "[isLoading]"
+	selector: "[isLoading]",
 })
 export class IsLoadingDirective {
-  constructor(
-    private readonly templateRef: TemplateRef<any>,
-    private readonly ref: ViewContainerRef
-  ) {}
+	constructor(
+		private readonly templateRef: TemplateRef<any>,
+		private readonly ref: ViewContainerRef,
+	) {}
 
-  @Input("isLoading") set isLoading(val: boolean | null | undefined) {
-    console.log(`Got val for isLoading directive: ${val}`);
+	@Input() set isLoading(val: boolean | null | undefined) {
+		this.ref.clear();
 
-    if (val) {
-      this.ref.clear();
-      this.ref.createComponent(LoaderComponent);
-    } else {
-      this.ref.clear();
-      this.ref.createEmbeddedView(this.templateRef);
-    }
-  }
+		if (val) {
+			this.ref.createComponent(LoaderComponent);
+		} else {
+			this.ref.createEmbeddedView(this.templateRef);
+		}
+	}
 }

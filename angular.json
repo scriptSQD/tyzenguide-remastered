@@ -127,5 +127,7 @@
       }
     }
   },
-  "defaultProject": "tyzenguide-remastered"
+  "cli": {
+    "analytics": false
+  }
 }

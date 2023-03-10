@@ -8,7 +8,6 @@
         <iframe
           class="pointer-events-auto w-full h-full"
           [src]="sight.youtube | urlSafe"
-          frameborder="0"
           allowfullscreen
         ></iframe>
       </div>
@@ -22,6 +21,7 @@
             src="{{ image }}"
             alt="{{ sight.name }} photos"
             class="object-cover"
+            loading="lazy"
           />
         </ng-template>
       </swiper>
@@ -54,7 +54,7 @@
                 href="{{ link }}"
                 target="_blank"
                 rel="noopener"
-                class="flex flex-row items-center"
+                class="flex flex-row items-center gap-2 break-all"
               >
                 {{ link }}
                 <svg
@@ -62,7 +62,7 @@
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  class="ml-1.5 w-4 h-4"
+                  class="min-w-[1rem] w-4 min-h-[1rem] h-4 self-start my-1"
                 >
                   <path
                     stroke-linecap="round"

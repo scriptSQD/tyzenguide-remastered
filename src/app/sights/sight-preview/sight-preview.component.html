@@ -3,12 +3,13 @@
   class="h-full block overflow-hidden rounded-2xl select-none"
 >
   <swiper [config]="SwiperConfig" class="select-none bg-gray-900" id="gallery">
-    <ng-template swiperSlide *ngFor="let img of thumbList" class="my-auto">
+    <ng-template swiperSlide *ngFor="let img of thumbList">
       <a>
         <img
           class="w-full h-full object-cover"
           src="{{ img }}"
           alt="{{ title }} photo"
+          loading="lazy"
         />
       </a>
     </ng-template>
