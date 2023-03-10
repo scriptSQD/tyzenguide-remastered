@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { SWIPER_CONFIG } from "@constants/injections-tokens";
+import { Component, Inject } from "@angular/core";
 
 @Component({
 	selector: "app-tyzenhaus",
@@ -14,4 +15,6 @@ export class TyzenhausComponent {
 		"/assets/sights/images/tyzenhaus/6.png",
 		"/assets/sights/images/tyzenhaus/7.png",
 	];
+
+	constructor(@Inject(SWIPER_CONFIG) public readonly swiperConfig: any) {}
 }

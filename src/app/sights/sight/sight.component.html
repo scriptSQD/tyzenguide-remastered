@@ -1,84 +1,82 @@
 <ng-container *isLoading="fetchingSightInfo | async">
-  <article
-    class="flex flex-col justify-center items-center m-3"
-    *ngIf="sight | async as sight"
-  >
-    <div class="flex flex-col w-full max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
-      <div class="player-container" *ngIf="sight.youtube">
-        <iframe
-          class="pointer-events-auto w-full h-full"
-          [src]="sight.youtube | urlSafe"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <swiper [config]="SwiperConfig" class="select-none my-4 max-w-4xl w-full">
-        <ng-template
-          swiperSlide
-          *ngFor="let image of sight.images.thumb"
-          id="gallery"
-        >
-          <img
-            src="{{ image }}"
-            alt="{{ sight.name }} photos"
-            class="object-cover"
-            loading="lazy"
-          />
-        </ng-template>
-      </swiper>
-      <div class="sm:mx-auto space-y-8 max-w-prose">
-        <h1 class="text-3xl font-bold leading-tight text-gray-900 sm:text-5xl">
-          {{ sight.title }}
-        </h1>
+	<article
+		class="flex flex-col justify-center items-center m-3"
+		*ngIf="sight | async as sight"
+	>
+		<div
+			class="flex flex-col w-full max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8"
+		>
+			<div class="player-container" *ngIf="sight.youtube">
+				<iframe
+					class="pointer-events-auto w-full h-full"
+					[src]="sight.youtube | urlSafe"
+					allowfullscreen
+				></iframe>
+			</div>
+			<swiper
+				[config]="swiperConfig"
+				class="select-none my-4 max-w-4xl w-full"
+			>
+				<ng-template
+					swiperSlide
+					*ngFor="let image of sight.images.thumb"
+					id="gallery"
+				>
+					<img
+						[src]="image"
+						[alt]="sight.name + ' photos'"
+						class="object-cover"
+						loading="lazy"
+					/>
+				</ng-template>
+			</swiper>
+			<div class="sm:mx-auto space-y-8 max-w-prose">
+				<h1
+					class="text-3xl font-bold leading-tight text-gray-900 sm:text-5xl"
+				>
+					{{ sight.title }}
+				</h1>
 
-        <div class="inline-block pb-8 border-b-2 border-blue-500">
-          <p class="font-medium text-gray-600">by Tyzenguide Team</p>
-        </div>
+				<div class="inline-block pb-8 border-b-2 border-blue-500">
+					<p class="font-medium text-gray-600">by Tyzenguide Team</p>
+				</div>
 
-        <div class="prose prose-lg max-w-none">
-          <p>
-            <em>{{ sight.prose.intro }}</em>
-          </p>
-          <div class="not-prose">
-            <p *ngFor="let paragraph of sight.prose.paragraphs">
-              {{ paragraph }}
-            </p>
-          </div>
-          <p>{{ sight.prose.conclusion }}</p>
-        </div>
+				<div class="prose prose-lg max-w-none">
+					<p>
+						<em>{{ sight.prose.intro }}</em>
+					</p>
+					<div class="not-prose">
+						<p *ngFor="let paragraph of sight.prose.paragraphs">
+							{{ paragraph }}
+						</p>
+					</div>
+					<p>{{ sight.prose.conclusion }}</p>
+				</div>
 
-        <div class="text-indigo-900">
-          <h3>Sources:</h3>
-          <ul class="list-disc">
-            <li *ngFor="let link of sight.sources.links">
-              <a
-                href="{{ link }}"
-                target="_blank"
-                rel="noopener"
-                class="flex flex-row items-center gap-2 break-all"
-              >
-                {{ link }}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  class="min-w-[1rem] w-4 min-h-[1rem] h-4 self-start my-1"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li *ngFor="let other of sight.sources.others">
-              {{ other }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </article>
+				<div class="text-indigo-900">
+					<h3>Sources:</h3>
+					<ul class="list-disc">
+						<li *ngFor="let link of sight.sources.links">
+							<a
+								[href]="link"
+								target="_blank"
+								rel="noopener"
+								class="flex flex-row items-center gap-2 break-all"
+							>
+								{{ link }}
+								<img
+									src="/assets/icons/external-link.svg"
+									alt="External link"
+									class="w-4 h-4 self-start my-1"
+								/>
+							</a>
+						</li>
+						<li *ngFor="let other of sight.sources.others">
+							{{ other }}
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</article>
 </ng-container>

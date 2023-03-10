@@ -1,12 +1,5 @@
-import { Component, Input } from "@angular/core";
-import SwiperCore, {
-	Lazy,
-	Navigation,
-	Pagination,
-	SwiperOptions,
-} from "swiper";
-
-SwiperCore.use([Navigation, Pagination, Lazy]);
+import { SWIPER_CONFIG } from "@constants/injections-tokens";
+import { Component, Inject, Input } from "@angular/core";
 
 @Component({
 	selector: "app-sight-preview",
@@ -14,20 +7,7 @@ SwiperCore.use([Navigation, Pagination, Lazy]);
 	styleUrls: ["./sight-preview.component.scss"],
 })
 export class SightPreviewComponent {
-	SwiperConfig: SwiperOptions = {
-		slidesPerView: 1,
-		spaceBetween: 35,
-		loop: true,
-		pagination: {
-			clickable: true,
-		},
-		lazy: {
-			enabled: true,
-			loadPrevNext: true,
-		},
-	};
-
-	constructor() {}
+	constructor(@Inject(SWIPER_CONFIG) public readonly swiperConfig: any) {}
 
 	@Input("title") title!: string;
 	@Input("description") desc!: string;
